@@ -71,7 +71,10 @@ $options_helptexts = array(
 	                                   'desc'    => sprintf(__('With this option you can disable the inclusion of the %1$s file.','event-list'), '"event-list.css"').'<br />'.
 	                                                __('This normally only make sense if you have css conflicts with your theme and want to set all required css styles somewhere else (e.g. in the theme css).','event-list')),
 
-	// Section: "admin"
+	'el_pag_events_number'   => array('type'    => 'text',
+                                      'label'   => __('How many events per page','event-list'),
+                                      'desc'    => __('With this option you can select the number of events per page.','event-list')),
+    // Section: "admin"
 	'el_edit_dateformat'      => array('type'    => 'text',
 	                                   'label'   => __('Date format in edit form','event-list'),
 	                                   'desc'    => __('This option sets the displayed date format for the event date fields in the event new / edit form.','event-list').'<br />'.

@@ -42,7 +42,8 @@ class EL_Options {
 			'el_show_details_text'    => array('section' => 'frontend',   'std_val' => __('Show details','event-list')),
 			'el_hide_details_text'    => array('section' => 'frontend',   'std_val' => __('Hide details','event-list')),
 			'el_disable_css_file'     => array('section' => 'frontend',   'std_val' => ''),
-
+            'el_pag_events_number'    => array('section' => 'frontend',   'std_val' => '10'),
+            
 			'el_edit_dateformat'      => array('section' => 'admin',      'std_val' => ''),
 
 			'el_enable_feed'          => array('section' => 'feed',       'std_val' => ''),
